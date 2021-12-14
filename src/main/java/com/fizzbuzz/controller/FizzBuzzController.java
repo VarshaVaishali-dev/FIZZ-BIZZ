@@ -29,7 +29,7 @@ public class FizzBuzzController {
 
         try {
           if (upperLimit<=100) {
-            IntStream.range(1, upperLimit)
+            IntStream.range(1, upperLimit+1)
             .forEach(i -> {
             	
                     if (((i % 5) == 0) && ((i % 3) == 0)) {
